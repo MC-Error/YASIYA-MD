@@ -19,7 +19,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 const config = {
-    SESSION_ID: process.env.SESSION_ID || '',
+    SESSION_ID: process.env.SESSION_ID || 'YASIYA-MD?bd86ih',
     PORT: Number(process.env.PORT) || 8000,
     SESSION_NAME: process.env.SESSION_NAME || 'auth_info_baileys'
 };
